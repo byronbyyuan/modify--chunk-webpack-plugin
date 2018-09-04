@@ -1,0 +1,23 @@
+{
+  "name": "custom-chunk-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack-plugin",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "html-webpack-plugin",
+    "publicPath",
+    "entry",
+    "chunk-cdn"
+  ],
+  "author": "yuanboyun",
+  "license": "ISC"
+}
