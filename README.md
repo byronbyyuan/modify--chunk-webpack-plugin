@@ -17,9 +17,9 @@
 | jsChunk     | 需要添加chunk名称*      |  chunkName/all/[chunkName]{String|Array}             |    ``           |  
 | customBase  | 自定义设置路径的函数**  |  回调函数 function(返回值){function}                   |    ``           |
 | start       | 添加一个文件的路径的位置|             start/end{String}                         |    end          |
-| addPath     | 添加文件的对象*        |      |     ``          |
+| addPath     | 添加文件的对象*        |                                                       |     ``          |
 | customAdd   | 自定义添加文件的函数**  |  回调函数 {function}                                  |    ``          |
-| InlineChunk | 将chunk变为内联        |  chunkName/[chunkName]{String|Array}                 |    ``          |
+| InlineChunk | 将chunk变为内联        |  chunkName/[chunkName]{String|Array}|    ``          |
 
 ###webpack.config.js
 ```
