@@ -21,7 +21,7 @@
 | customAdd   | 自定义添加文件的函数**  |  回调函数 function                       |    ``                          |
 | InlineChunk | 将chunk变为内联        |  chunkName/[chunkName]                   |    ``                        |
 
-###webpack.config.js
+### webpack.config.js
 ```
 const customChunkWebpackPlugin = require('custom-chunk-webpack-plugin')
 {
