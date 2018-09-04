@@ -11,7 +11,7 @@
   
 ## options参数
 | key         | Description(优先级*)    |    value(type)                                     |     default    |
-| :--------   | :-----------------    |    :----------------------------------------------- |    :---------   |
+| :--------   | :-----------------    |    :-----------------------------------------------: |    :---------   |
 | basePath    | 添加的路径前缀         |  url{String}                                        |    ``           |
 | cssChunk    | 需要添加chunk名称*     |  chunkName/all/[chunkName]{String|Array}            |    ``           |
 | jsChunk     | 需要添加chunk名称*     |  chunkName/all/[chunkName]{String|Array}            |    ``           |  
