@@ -11,15 +11,15 @@
   
 ## options参数
 | key         | Description(优先级*)    |    value(type)                          |     default    |
-| :--------:  | :-----------------:     |   ------------------------------------:|   :---------:  |
-| basePath    | 添加的路径前缀          |                url                      |    ``           |
-| cssChunk    | 需要添加chunk名称*      |  chunkName/all/[chunkName]              |    ``           |
-| jsChunk     | 需要添加chunk名称*      |  chunkName/all/[chunkName]              |    ``           |  
-| customBase  | 自定义设置路径的函数**   |  回调函数 function(返回值)               |    ``           |
-| start       | 添加一个文件的路径的位置 |  start/end{String}                      |    end          |
-| addPath     | 添加文件的对象*         |  Object{js/css{String|Array} }          |     ``          |
-| customAdd   | 自定义添加文件的函数**  |  回调函数 function                       |    ``           |
-| InlineChunk | 将chunk变为内联        |  chunkName/[chunkName]                   |    ``          |
+| :--------:  | :-----------------:     |   :------------------------------------:|   :----------------:  |
+| basePath    | 添加的路径前缀          |                url                       |    ``                 |
+| cssChunk    | 需要添加chunk名称*      |  chunkName/all/[chunkName]              |    ``                   |
+| jsChunk     | 需要添加chunk名称*      |  chunkName/all/[chunkName]              |    ``                   |  
+| customBase  | 自定义设置路径的函数**   |  回调函数 function(返回值)               |    ``                  |
+| start       | 添加一个文件的路径的位置 |  start/end{String}                      |    end                   |
+| addPath     | 添加文件的对象*         |  Object{js/css{String|Array} }          |     ``                   |
+| customAdd   | 自定义添加文件的函数**  |  回调函数 function                       |    ``                    |
+| InlineChunk | 将chunk变为内联        |  chunkName/[chunkName]                   |    ``                  |
 
 ###webpack.config.js
 ```
