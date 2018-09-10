@@ -1,4 +1,4 @@
-# custom-chunk-webpack-plugin
+# modify-chunk-webpack-plugin
 
 ##  作用是什么？
 #### HtmlWebpackPlugin 能很好地帮我们注入打包的入口文件,但我们可能有需要更细粒化操作比如：    
