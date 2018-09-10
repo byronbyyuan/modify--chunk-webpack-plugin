@@ -1,5 +1,5 @@
 {
-  "name": "custom-chunk-webpack-plugin",
+  "name": "modify-chunk-webpack-plugin",
   "version": "1.0.0",
   "description": "webpack-plugin",
   "main": "index.js",
